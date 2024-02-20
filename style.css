@@ -1,0 +1,300 @@
+.header {
+    background-image: url(https://assets.channext.eu/microchip/2023/poe2023/img/header.png);
+    background-size: cover;
+}
+
+.desktop-screen {
+display: inline-block;
+}
+
+.mobile-screen {
+display: none;
+}
+
+.border-top {
+    border-top: 2px solid #D0DBE5!important;
+}
+
+.lightblue-btn {
+background-color: #5AB7E6 !important;
+border: 2px solid #5AB7E6 !important;
+color: white !important;
+}
+
+.lightblue-btn:hover {
+background-color: transparent !important;
+border: 2px solid #5AB7E6 !important;
+color: #5AB7E6 !important;
+}
+
+.purple-btn {
+background-color: #833376!important;
+border: 2px solid #833376!important;
+color: white !important;
+}
+
+.purple-btn:hover {
+background-color: transparent !important;
+border: 2px solid #833376!important;
+color: #833376!important;
+}
+
+.link-btn:hover {
+background-color: #833376!important;
+border: 2px solid #833376!important;
+color: white !important;
+}
+
+.link-btn {
+background-color: transparent !important;
+border: 2px solid #833376!important;
+color: #833376!important;
+} 
+
+.btn {
+font-size: 14px !important;
+padding: 9px 35px !important;
+}
+
+.slider-container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+}
+
+.slider-container {
+  position: relative;
+}
+
+.nav-link-poe:hover {
+ font-size: 18px !important;
+ color: #37B4E5 !important;
+ text-decoration: underline !important;
+}
+
+.nav-link-poe {
+border: none !important;
+ font-size: 18px !important;
+ color: #A8AAAA!important;
+ text-decoration: none !important;
+}
+
+.resources-btn {
+    background-color: #1c355e!important;
+    border: 2px solid #1c355e!important;
+    color: #fff !important;
+    text-decoration: none!important;
+}
+
+.resources-btn:hover {
+    background-color: transparent!important;
+    border: 2px solid #1c355e!important;
+    color: #1c355e !important;
+    text-decoration: none!important;
+}
+
+.pro-white-bg {
+background-color: white;
+color: #1D345E;
+padding: 5%;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.white-bg {
+background-color: white;
+color: #1D345E;
+}
+
+.bg-light-gray {
+background-color: #D0DBE5;
+}
+
+.update-container {
+ height: 27rem;
+ box-shadow: none;
+}
+
+.product-container {
+ height: 27rem;
+ background-color: #F1F2F2;
+ }
+  
+  h3 {
+   font-size: 21px !important;
+    font-weight: 600;
+    line-height: 30px;
+ }
+ 
+ .third-heading {
+ font-size: 28px;
+ color:#7E8590;
+ font-weight: 700;
+ }
+
+.update-btn {
+background-color: #37B4E5!important;
+padding: 9px 35px !important;
+border: 2px solid #37B4E5!important;
+color: white !important;
+}
+
+.update-btn:hover {
+background-color: transparent !important;
+padding: 9px 35px !important;
+border: 2px solid #37B4E5!important;
+color: #37B4E5!important;
+}
+
+/* Carousel */
+
+.carousel-indicators li {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 81% !important;
+}
+
+.carousel-indicators li .active {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 81% !important;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+    left: -2%;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+    right: -2%;
+}
+
+.carousel-control-prev svg,
+.carousel-control-next svg {
+    height: 30px;
+    width: 30px;
+    color: #000;
+}
+
+.nav {
+    top: 0;
+    bottom: unset;
+    position: unset;
+}
+
+h1 {
+color: #1D345E;
+line-height: 1.3;
+font-size: 33px;
+}
+  
+ul.nav-pills {
+    top: 20px;
+    position: fixed;
+}
+  
+div.col-8 div {
+    height: 500px;
+  }
+  
+.col-height{
+  height: 180px;;
+  overflow-y: auto;
+}
+
+li {
+ list-style-type: none;  
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: display;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+
+@media screen and (max-width: 1200px) { 
+ p {
+ font-size: 14px;
+ }
+   
+ h3 {
+   font-size: 18px !important; 
+   }
+   
+h5 {
+   font-size: 19px !important; 
+   }
+ 
+.third-heading {
+ font-size: 24px;
+ }
+
+.secondary-heading {
+ font-size: 30px;
+ } 
+}
+
+@media screen and (max-width: 991px) {
+.desktop-screen {
+display: none;
+}
+
+.mobile-screen {
+display: inline-block;
+}
+
+.product-container {
+    height: 30rem;
+}
+
+.mb-mobile-first {
+margin-bottom: 2% !important;
+}
+}
+   
+@media screen and (max-width: 768px) { 
+
+.product-container {
+    height: 26rem;
+}
+
+.mb-mobile {
+margin-bottom: 10% !important;
+}
+
+.nav-link {
+    font-size: 16px !important;
+}
+}
+
+@media screen and (max-width: 575px) { 
+.product-container {
+    height: 37rem;
+}
+}
+
+@media screen and (max-width: 425px) { 
+.product-container {
+    height: 31rem;
+}
+}
